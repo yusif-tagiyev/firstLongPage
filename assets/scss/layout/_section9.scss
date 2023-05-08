@@ -1,0 +1,116 @@
+.section9 {
+  .mainDivSection9 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    width: 100%;
+    .mainDivFirstDivSection9 {
+      width: 50%;
+      .Features {
+        font-family: "Epilogue";
+        font-size: 16px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #ef6d58;
+      }
+      .LongRun {
+        padding-top: 30px;
+        font-family: "Epilogue";
+        font-size: 20px;
+        line-height: 32px;
+        color: #391400;
+      }
+      button {
+        margin-top: 28px;
+        border: none;
+        background-color: transparent;
+        font-family: "Epilogue";
+        font-size: 16px;
+        color: #391400;
+        cursor: pointer;
+      }
+    }
+    .mainDivSecondDivSection9 {
+      width: 50%;
+      display: flex;
+      align-items: flex-end;
+      .professionalDiv {
+        border: 1px solid #f3d1bf;
+        background-color: white;
+        max-width: 336px;
+        height: 336px;
+        padding-top: 48px;
+        padding-left: 48px;
+        .logoDiv {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          background-color: #ef6c57;
+        }
+        .Professional {
+          padding-top: 41px;
+          font-family: "Epilogue";
+          font-size: 24px;
+          color: #391400;
+        }
+        .FullService {
+          padding-top: 19px;
+          padding-right: 20px;
+          font-family: "Epilogue";
+          font-size: 16px;
+          color: rgba(57, 20, 0, 0.64);
+        }
+      }
+      .accessibilityDiv {
+        padding-top: 20px;
+        background-color: transparent;
+        border: 1px solid #f3d1bf;
+       max-width: 336px;
+        height: 272px;
+        padding-top: 105px;
+        padding-left: 48px;
+        .Accessibility {
+          font-family: "Epilogue";
+          font-size: 24px;
+          color: #391400;
+        }
+        .businessUnderstanding {
+          padding-top: 19px;
+          padding-right: 20px;
+          font-family: "Epilogue";
+          font-size: 16px;
+          color: rgba(57, 20, 0, 0.64);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section9 {
+    .mainDivSection9 {
+      display: flex;
+      flex-direction: column;
+      padding-left: 20px;
+      padding-right: 20px;
+      .mainDivFirstDivSection9 {
+        width: 100%;
+      }
+      .mainDivSecondDivSection9 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .professionalDiv {
+          width: 100%;
+        }
+        .accessibilityDiv{
+          width: 100%;
+        }
+      }
+    }
+  }
+}

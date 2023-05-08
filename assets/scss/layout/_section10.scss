@@ -1,0 +1,99 @@
+.section10{
+    .mainDivSection10{
+        display: flex;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .mainDivSection10FirstDiv{
+            width: 50%;
+            img{
+                max-width: 100%;
+            }
+        }
+        .mainDivSection10SecondDiv{
+            width: 50%;
+            padding-left: 100px;
+            .Service{
+                padding-top: 40px;
+                font-family: 'Epilogue';
+                font-size: 16px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: #EF6D58;
+            }
+            .MakingComplex{
+                padding-top: 20px;
+                font-family: 'Epilogue';
+                font-size: 56px;
+                font-weight: 800;
+                letter-spacing: -1px;
+                color: #391400;
+            }
+            .AgencyProvides{
+                padding-top: 26px;
+                font-family: 'Epilogue';
+                font-size: 20px;
+                color: #391400;
+            }
+            .imgDiv{
+                padding-top: 37px;
+                display: flex;
+                .imgDivTextAre{
+                    .Understanding{
+                        padding-left: 18px;
+                        padding-right: 20px;
+
+                        font-family: 'Epilogue';
+                        font-size: 14px;
+                        color: rgba(57, 20, 0, 0.64);
+                    }
+                    .Jenny{
+                        padding-left: 18px;
+                        padding-top: 12px;
+                        font-family: 'Epilogue';
+                        font-size: 16px;
+                        color: #391400;
+                    }
+                }
+
+            }
+            button{
+                margin-top: 72px;
+                border: none;
+                width: 138px;
+                height: 48px;
+                background: #FFFFFF;
+                box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+                border-radius: 6px;
+                font-family: 'Epilogue';
+                font-size: 14px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #391400;
+            }
+
+        }
+    
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .section10{
+        .mainDivSection10{
+            display: flex;
+            flex-direction: column;
+            padding-left: 20px;
+            padding-right: 20px;
+            .mainDivSection10FirstDiv{
+                width: 100%;
+            }
+            .mainDivSection10SecondDiv{
+                width: 100%;
+                padding-left: 0;
+                .MakingComplex{
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}

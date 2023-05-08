@@ -1,0 +1,113 @@
+.section19{
+    .mainDivSection19{
+        padding-top: 108px;
+        .mainDivSection19FirstDiv{
+            .Pricing{
+                font-family: 'Epilogue';
+                font-size: 16px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: #EF6D58;
+            }
+            .Check{
+                padding-top: 20px;
+                font-family: 'Epilogue';
+                font-weight: 800;
+                font-size: 56px;
+                letter-spacing: -1px;
+                color: #391400;
+            }
+        }
+    }
+    .mainDivSection19SecondDiv{
+        display: flex;
+        padding-top: 64px;
+        width: 100%;
+       
+        .firstDiv{
+            width: 391px;
+            height: 512px;
+            border: 1px solid #F3D1BF;
+            padding-left: 48px;
+            padding-right: 48px;
+            &:hover{
+                background-color: white;
+                button{
+                    background-color:  #EF6D58;
+                    color: white;
+                }
+            }
+           
+            .header{
+                padding-top: 44px;
+                font-family: 'Epilogue';
+                font-size: 16px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: #EF6D58;
+            }
+            .productStatus{
+                padding-top: 16px;
+                font-family: 'Epilogue';
+                font-weight: 800;
+                font-size: 40px;
+                color: #391400;
+            }
+            .productInfo{
+                padding-top: 15px;
+                font-family: 'Epilogue';
+                font-weight: 400;
+                font-size: 16px;
+                color: rgba(57, 20, 0, 0.64);
+            }
+            .productInfoPlusMinus{  
+                display: flex;
+                padding-top: 30px;
+                .productPlus{
+                    padding-left: 15px;
+                    font-family: 'Epilogue';
+                    font-size: 16px;
+                    color: #391400;
+                }
+                .productMinus{
+                    padding-left: 15px;
+
+                    font-family: 'Epilogue';
+                    font-size: 16px;
+                    color: rgba(57, 20, 0, 0.64);
+                }
+               
+            }
+            button{
+                border: none;
+                margin-top: 56px;
+                width: 154px;
+                height: 48px;
+                background: #FFFFFF;
+                box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+                border-radius: 6px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .section19{
+        .mainDivSection19{
+            padding-left: 20px;
+            padding-right: 20px;
+           .mainDivSection19FirstDiv{
+                .Check{
+                    font-size: 40px;
+                }
+           } 
+           .mainDivSection19SecondDiv{
+                display: flex;
+                flex-direction: column;
+                .firstDiv{
+                    width: 100%;
+                    }
+           }
+        }
+    }
+}

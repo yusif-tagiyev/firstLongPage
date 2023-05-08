@@ -1,0 +1,101 @@
+.section13{
+    .mainDivSection13{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        .mainDivSection13FirstDiv{
+            display: flex;
+            gap: 30px;
+            .firsdImg{
+                position: relative;
+                .designButton{
+                    position: absolute;
+                    top: 256px;
+                    left: 48px;
+                    width: 84px;
+                    height: 38px;
+                    border-radius: 19px;
+                    background-color: #ffffff;
+                    border: none;
+                    cursor: pointer;
+                }
+                .imgText{
+                    position: absolute;
+                    top: 317px;
+                    left: 48px;
+                    font-family: 'Epilogue';
+                    font-size: 40px;
+                    color: #FFFFFF;
+                }
+            }
+            .secondImg{
+                position: relative;
+                .designButton{
+                    position: absolute;
+                    top: 256px;
+                    left: 48px;
+                    width: 84px;
+                    height: 38px;
+                    border-radius: 19px;
+                    background-color: #ffffff;
+                    border: none;
+                    cursor: pointer;
+                }
+                .imgText{
+                    position: absolute;
+                    top: 317px;
+                    left: 48px;
+                    font-family: 'Epilogue';
+                    font-size: 40px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .Explore{
+            padding-top: 62px;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            button{
+               background-color: transparent;
+               border: 1px solid rgba(255, 255, 255, 0.295743);
+                border-radius: 6px;
+                width: 170px;
+                height: 48px;
+                font-family: 'Epilogue';
+                font-size: 14px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                cursor: pointer;
+                &:hover {
+                    border: 3px solid #533487;
+                    transform: 1s;
+                }
+                
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .section13{
+        .mainDivSection13{
+            width: 100%;
+            .mainDivSection13FirstDiv{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                .firsdImg{
+                    width: 200px;
+                    display: none;
+                }
+                .secondImg{
+                    display: none;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

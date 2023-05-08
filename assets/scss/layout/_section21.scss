@@ -1,0 +1,112 @@
+.section21 {
+  .mainDivSection21 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 156px;
+    .OurAwards {
+      font-family: "Epilogue";
+      font-weight: 800;
+      font-size: 40px;
+      text-align: center;
+      color: #391400;
+    }
+    .tableDiv {
+      width: 100%;
+      padding-top: 67px;
+      .tableDivFirstDiv {
+        border: 1px solid #a76868;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 141px;
+        .SofaDiv {
+          width: 250px;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          gap: 24px;
+          font-family: "Epilogue";
+          font-size: 20px;
+          line-height: 32px;
+          color: #391400;
+        }
+        .date {
+          font-family: "Epilogue";
+          font-size: 16px;
+          color: rgba(57, 20, 0, 0.64);
+        }
+        .Awwwards {
+          width: 250px;
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          gap: 24px;
+          font-family: "Epilogue";
+          font-size: 20px;
+          line-height: 32px;
+          color: #391400;
+        }
+      }
+    }
+    .buttonAndATag {
+      padding-top: 59px;
+      padding-bottom: 60px;
+      a {
+        text-decoration: none;
+        font-family: "Epilogue";
+        font-size: 16px;
+        color: rgba(57, 20, 0, 0.64);
+      }
+      button {
+        width: 96px;
+        height: 32px;
+        border: none;
+        background-color: transparent;
+        font-family: "Epilogue";
+        font-size: 16px;
+        color: #391400;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section21 {
+    .mainDivSection21 {
+      padding-left: 20px;
+      padding-right: 20px;
+      .tableDiv {
+        .tableDivFirstDiv {
+          display: flex;
+          flex-direction: column;
+          height: auto;
+          justify-content: center;
+          align-items: center;
+          .SofaDiv {
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .date {
+            padding-top: 10px;
+          }
+          .Awwwards {
+            padding-top: 30px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}

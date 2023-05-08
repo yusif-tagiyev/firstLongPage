@@ -1,0 +1,94 @@
+.backGraundPinkSections{
+    .section26{
+        background: #EF6D58;
+        border-radius: 6px;
+        .mainDivSection26{
+            width: 100%;
+            display: flex;
+            .firstDiv{
+                width: 50%;
+                padding-left: 100px;
+                padding-top: 94px;
+                .WeAreHelpTo{
+                    padding-right: 75px;
+                    font-family: 'Epilogue';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 56px;
+                    line-height: 64px;
+                    letter-spacing: -1px;
+                    color: #FFFFFF;
+                }
+                .aDigitalAgency{
+                    padding-top: 28px;
+                    font-family: 'Epilogue';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 32px;
+                    color: rgba(255, 255, 255, 0.64);
+                }
+                button{
+                    margin-top: 34px;
+                    margin-bottom: 80px;
+                    width: 154px;
+                    height: 48px;
+                    border: none;
+                    background: #FFFFFF;
+                    box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+                    border-radius: 6px;
+                    font-family: 'Epilogue';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 14px;
+                    line-height: 14px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #391400;
+                }
+            }
+            .secondDiv{
+                width: 50%;
+                img{
+                    padding: 20px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    .backGraundPinkSections{
+        .section26{
+            padding-left: 20px;
+                padding-right: 20px;
+            .mainDivSection26{
+                display: flex;
+                flex-direction: column-reverse;
+               
+                .firstDiv{
+                    width: 100%;
+                    padding-left: 10px;
+                padding-top: 14px;
+                .WeAreHelpTo{
+                    font-size: 40px;
+                    padding-right: 0;
+                }
+                }
+                .secondDiv{
+                    width: 100%;
+                    img{
+                        padding: 5px;
+                    }
+                }
+    
+            }
+        }
+    }
+
+    
+}

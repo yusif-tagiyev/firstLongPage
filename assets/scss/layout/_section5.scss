@@ -1,0 +1,92 @@
+.section5 {
+  .section5MainDiv {
+    display: flex;
+    padding-top: 161px;
+
+    .mainDivOne {
+      border: 1px solid #f3d1bf;
+      border-radius: 6px 0px 0px 6px;
+      width: 391px;
+      height: 167px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 48px;
+      .number {
+        font-family: "Epilogue";
+        font-weight: 800;
+        font-size: 40px;
+        color: #391400;
+      }
+      .text {
+        font-family: "Epilogue";
+        font-weight: 400;
+        font-size: 20px;
+        color: #391400;
+      }
+    }
+    .mainDivTwo {
+      border: 1px solid #f3d1bf;
+      width: 391px;
+      height: 167px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 48px;
+      .number {
+        font-family: "Epilogue";
+        font-weight: 800;
+        font-size: 40px;
+        color: #391400;
+      }
+      .text {
+        font-family: "Epilogue";
+        font-weight: 400;
+        font-size: 20px;
+        color: #391400;
+      }
+    }
+    .mainDivFive {
+      border: 1px solid #f3d1bf;
+      border-radius: 0px 6px 6px 0px;
+      width: 391px;
+      height: 167px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 48px;
+      .number {
+        font-family: "Epilogue";
+        font-weight: 800;
+        font-size: 40px;
+        color: #391400;
+      }
+      .text {
+        font-family: "Epilogue";
+        font-weight: 400;
+        font-size: 20px;
+        color: #391400;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section5 {
+    .section5MainDiv {
+      display: flex;
+      flex-direction: column;
+      padding-left: 20px;
+      padding-right: 20px;
+      .mainDivOne {
+        max-width: 100%;
+      }
+      .mainDivTwo {
+        max-width: 100%;
+      }
+      .mainDivFive {
+        max-width: 100%;
+      }
+    }
+  }
+}

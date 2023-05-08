@@ -1,0 +1,2705 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0px auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.backGraundPinkSections {
+  background-color: #FDF0E9;
+}
+
+.backGraundDarkSections {
+  background-color: #28293E;
+}
+
+.backGraundDarkSections nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #28293e;
+  height: 80px;
+}
+.backGraundDarkSections nav .agencyLogo {
+  display: flex;
+  gap: 5px;
+  font-family: "Epilogue";
+  font-size: 24px;
+  color: #ffffff;
+}
+.backGraundDarkSections nav .agencyInfoList {
+  width: 515px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backGraundDarkSections nav .agencyInfoList ul {
+  display: flex;
+  gap: 90px;
+}
+.backGraundDarkSections nav .agencyInfoList ul li a {
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: #ffffff;
+}
+.backGraundDarkSections nav .contactButton {
+  width: 138px;
+  height: 48px;
+  background-color: #28293e;
+  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  font-family: "Epilogue";
+  font-size: 14px;
+  color: #ffffff;
+}
+.backGraundDarkSections nav .contactButton:hover {
+  border: 1px solid #533487;
+  transform: 1s;
+}
+.backGraundDarkSections nav .ivonDiv {
+  display: none;
+  width: 48px;
+  height: 48px;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 29px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.backGraundDarkSections #agencyInfoListMobil {
+  transition: 0.5s;
+  display: block;
+  height: 0;
+  gap: 19px;
+  max-width: 768px;
+  overflow: hidden;
+}
+.backGraundDarkSections #agencyInfoListMobil.navClickStyle {
+  height: 150px;
+}
+.backGraundDarkSections #agencyInfoListMobil ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.backGraundDarkSections #agencyInfoListMobil ul li a {
+  color: rgb(255, 246, 246);
+}
+
+@media only screen and (max-width: 768px) {
+  .backGraundDarkSections nav .agencyInfoList {
+    display: none;
+  }
+  .backGraundDarkSections nav .contactButton {
+    display: none;
+  }
+  .backGraundDarkSections nav .ivonDiv {
+    display: flex;
+  }
+}
+.section2 {
+  display: flex;
+  padding-top: 100px;
+  position: relative;
+}
+.section2 .satarImg {
+  position: absolute;
+  left: 296px;
+  z-index: 1;
+}
+.section2 .Modern {
+  width: 50%;
+  z-index: 2;
+}
+.section2 .Modern .modernStudio {
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: #EF6D58;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.section2 .Modern .WeAreHelp {
+  padding-top: 24px;
+}
+.section2 .Modern .WeAreHelp h1 {
+  font-family: "Epilogue";
+  font-size: 72px;
+  letter-spacing: -2px;
+  color: #FFFFFF;
+}
+.section2 .Modern .agencyProvides {
+  padding-top: 24px;
+}
+.section2 .Modern .agencyProvides p {
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.64);
+}
+.section2 .Modern .buttonDiv {
+  padding-top: 34px;
+}
+.section2 .Modern .buttonDiv .howWeWorkButton {
+  width: 154px;
+  height: 48px;
+  border: none;
+  background: #EF6D58;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Epilogue";
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.section2 .Modern .buttonDiv .contactUsButton {
+  width: 154px;
+  height: 48px;
+  border: none;
+  background-color: #28293E;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Epilogue";
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.section2 .Modern .userIconDiv {
+  padding-top: 116px;
+  display: flex;
+}
+.section2 .Modern .userIconDiv .putThemselves {
+  padding-top: 5px;
+  padding-left: 16px;
+}
+.section2 .Modern .userIconDiv .putThemselves .putThemselvesShose {
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.64);
+}
+.section2 .Modern .userIconDiv .putThemselves .metaInc {
+  padding-top: 5px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.section2 .desiginIMG {
+  width: 50%;
+}
+.section2 .desiginIMG .desiginIMGTag {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section2 .Modern {
+    width: 100%;
+  }
+  .section2 .Modern .WeAreHelp {
+    padding-top: 24px;
+  }
+  .section2 .Modern .WeAreHelp h1 {
+    font-family: "Epilogue";
+    font-size: 56px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+  }
+  .section2 .Modern .agencyProvides {
+    padding-top: 44px;
+    max-width: 300px;
+    max-height: 66px;
+  }
+  .section2 .Modern .agencyProvides p {
+    font-family: "Epilogue";
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.64);
+  }
+  .section2 .Modern .buttonDiv {
+    padding-top: 54px;
+  }
+  .section2 .Modern .buttonDiv .howWeWorkButton {
+    max-width: 100px;
+  }
+  .section2 .Modern .buttonDiv .contactUsButton {
+    max-width: 100px;
+  }
+  .section2 .Modern .userIconDiv {
+    padding-top: 44px;
+    display: flex;
+  }
+  .section2 .Modern .userIconDiv .putThemselves {
+    padding-top: 5px;
+    padding-left: 16px;
+  }
+  .section2 .satarImg {
+    display: none;
+  }
+  .section2 .desiginIMG {
+    width: 100%;
+  }
+  .section2 .desiginIMG .desiginIMGTag {
+    max-width: 307px;
+  }
+}
+.section3 {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+.section3 .logoDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+.section3 .hrLine {
+  border: 2px solid #F3D1BF;
+}
+
+@media only screen and (max-width: 768px) {
+  .section3 {
+    display: flex;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section3 .logoDiv {
+    padding-top: 20px;
+    max-width: 768px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 .hrLine {
+    border: 2px solid #F3D1BF;
+  }
+}
+.section4 {
+  display: flex;
+}
+.section4 .imgDiv {
+  width: 50%;
+}
+.section4 .imgDiv img {
+  width: 100%;
+}
+.section4 .aboutDiv {
+  width: 50%;
+  padding-left: 5%;
+}
+.section4 .aboutDiv .about {
+  font-family: "Epilogue";
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+  padding-top: 80px;
+}
+.section4 .aboutDiv .anExperience {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+  padding-top: 20px;
+}
+.section4 .aboutDiv .provides {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+  padding-top: 26px;
+}
+.section4 .aboutDiv .ability {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  padding-top: 18px;
+}
+.section4 .aboutDiv .aboutUsButton {
+  margin-top: 34px;
+  font-family: "Epilogue";
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #391400;
+  width: 138px;
+  border: none;
+  height: 48px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section4 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section4 .imgDiv {
+    width: 100%;
+  }
+  .section4 .aboutDiv {
+    width: 100%;
+  }
+  .section4 .aboutDiv .anExperience {
+    font-size: 40px;
+  }
+}
+.section5 .section5MainDiv {
+  display: flex;
+  padding-top: 161px;
+}
+.section5 .section5MainDiv .mainDivOne {
+  border: 1px solid #f3d1bf;
+  border-radius: 6px 0px 0px 6px;
+  width: 391px;
+  height: 167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 48px;
+}
+.section5 .section5MainDiv .mainDivOne .number {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  color: #391400;
+}
+.section5 .section5MainDiv .mainDivOne .text {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 20px;
+  color: #391400;
+}
+.section5 .section5MainDiv .mainDivTwo {
+  border: 1px solid #f3d1bf;
+  width: 391px;
+  height: 167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 48px;
+}
+.section5 .section5MainDiv .mainDivTwo .number {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  color: #391400;
+}
+.section5 .section5MainDiv .mainDivTwo .text {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 20px;
+  color: #391400;
+}
+.section5 .section5MainDiv .mainDivFive {
+  border: 1px solid #f3d1bf;
+  border-radius: 0px 6px 6px 0px;
+  width: 391px;
+  height: 167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 48px;
+}
+.section5 .section5MainDiv .mainDivFive .number {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  color: #391400;
+}
+.section5 .section5MainDiv .mainDivFive .text {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 20px;
+  color: #391400;
+}
+
+@media only screen and (max-width: 768px) {
+  .section5 .section5MainDiv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section5 .section5MainDiv .mainDivOne {
+    max-width: 100%;
+  }
+  .section5 .section5MainDiv .mainDivTwo {
+    max-width: 100%;
+  }
+  .section5 .section5MainDiv .mainDivFive {
+    max-width: 100%;
+  }
+}
+.section6 .maiDivSection6 {
+  padding-top: 110px;
+  display: flex;
+  width: 100%;
+}
+.section6 .maiDivSection6 .HowWeWorkMainDiv {
+  max-width: 50%;
+}
+.section6 .maiDivSection6 .HowWeWorkMainDiv .HowWeWork {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section6 .maiDivSection6 .HowWeWorkMainDiv .MakingYourProjects {
+  padding-top: 17px;
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  color: #391400;
+}
+.section6 .maiDivSection6 .HowWeWorkMainDiv .TechnicalSkills {
+  padding-top: 31px;
+  max-width: 470px;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section6 .maiDivSection6 .HowWeWorkMainDiv .ReadMor {
+  margin-top: 28px;
+  border: none;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  color: #391400;
+  background-color: #FDF0E9;
+  cursor: pointer;
+}
+.section6 .maiDivSection6 .FullServiceMainDiv {
+  padding-top: 90px;
+  max-width: 50%;
+}
+.section6 .maiDivSection6 .FullServiceMainDiv .FullServiceMainDivFirstDiv {
+  display: flex;
+}
+.section6 .maiDivSection6 .FullServiceMainDiv .FullServiceMainDivFirstDiv .one {
+  width: 34px;
+  height: 80px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  letter-spacing: -2px;
+  color: #391400;
+}
+.section6 .maiDivSection6 .FullServiceMainDiv .FullServiceMainDivFirstDiv .serviceRange {
+  padding-top: 30px;
+  padding-left: 66px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #391400;
+}
+.section6 .maiDivSection6 .FullServiceMainDiv .FullServiceMainDivSecondDiv {
+  display: flex;
+}
+.section6 .maiDivSection6 .FullServiceMainDiv .FullServiceMainDivSecondDiv .two {
+  width: 46px;
+  height: 80px;
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 72px;
+  letter-spacing: -2px;
+  color: #391400;
+}
+.section6 .maiDivSection6 .FullServiceMainDiv .FullServiceMainDivSecondDiv .technicalSkills {
+  padding-top: 30px;
+  padding-left: 54px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #391400;
+}
+.section6 .maiDivSection6 .FullServiceMainDiv .FullServiceMainDivThridDiv {
+  display: flex;
+}
+.section6 .maiDivSection6 .FullServiceMainDiv .FullServiceMainDivThridDiv .three {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 72px;
+  letter-spacing: -2px;
+  color: #391400;
+}
+.section6 .maiDivSection6 .FullServiceMainDiv .Themselves {
+  padding-top: 30px;
+  padding-left: 66px;
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 24px;
+  color: #391400;
+}
+.section6 hr {
+  margin-top: 105px;
+  margin-bottom: 20px;
+  border: 1px solid #F3D1BF;
+}
+
+@media only screen and (max-width: 768px) {
+  .section6 .maiDivSection6 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section6 .maiDivSection6 .HowWeWorkMainDiv {
+    width: 100%;
+  }
+  .section6 .maiDivSection6 .FullServiceMainDiv {
+    width: 100%;
+  }
+}
+.section7 .mainDivSection7 {
+  width: 100%;
+  display: flex;
+  padding-top: 127px;
+  padding-bottom: 100px;
+}
+.section7 .mainDivSection7 .mainDivFirstDiv {
+  width: 50%;
+  position: relative;
+}
+.section7 .mainDivSection7 .mainDivFirstDiv .imgDiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section7 .mainDivSection7 .mainDivFirstDiv .imgDiv2 img {
+  width: 100%;
+}
+.section7 .mainDivSection7 .mainDivFirstDiv .time {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+.section7 .mainDivSection7 .mainDivFirstDiv .playIcon {
+  top: 124px;
+  left: 206px;
+  position: absolute;
+  width: 148px;
+  height: 148px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+}
+.section7 .mainDivSection7 .mainDivSecondDiv {
+  width: 50%;
+  padding-top: 65px;
+}
+.section7 .mainDivSection7 .mainDivSecondDiv .videoReel {
+  padding-left: 130px;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.section7 .mainDivSection7 .mainDivSecondDiv .unlockTheGreatest {
+  padding-left: 130px;
+  padding-top: 17px;
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  color: #391400;
+}
+.section7 .mainDivSection7 .mainDivSecondDiv .designBusinessUnderstanding {
+  padding-left: 130px;
+  padding-top: 28px;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+@media only screen and (max-width: 768px) {
+  .section7 .mainDivSection7 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 27px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section7 .mainDivSection7 .mainDivFirstDiv {
+    width: 100%;
+  }
+  .section7 .mainDivSection7 .mainDivFirstDiv .playIcon {
+    display: none;
+  }
+  .section7 .mainDivSection7 .mainDivSecondDiv {
+    width: 100%;
+  }
+  .section7 .mainDivSection7 .mainDivSecondDiv .videoReel {
+    padding-left: 0;
+  }
+  .section7 .mainDivSection7 .mainDivSecondDiv .unlockTheGreatest {
+    padding-left: 0;
+  }
+  .section7 .mainDivSection7 .mainDivSecondDiv .designBusinessUnderstanding {
+    padding-left: 0;
+  }
+}
+.section8 .mainDivSection8 {
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+}
+.section8 .mainDivSection8 .mainDivFirstDivSection8 {
+  width: 50%;
+}
+.section8 .mainDivSection8 .mainDivFirstDivSection8 .Features {
+  font-family: "Epilogue";
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section8 .mainDivSection8 .mainDivFirstDivSection8 .giveYourSite {
+  padding-top: 20px;
+  font-family: "Epilogue";
+  font-size: 56px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #391400;
+}
+.section8 .mainDivSection8 .mainDivFirstDivSection8 .ServiceRange {
+  padding-top: 26px;
+  font-family: "Epilogue";
+  font-size: 20px;
+  color: #391400;
+}
+.section8 .mainDivSection8 .mainDivFirstDivSection8 .RangeIncluding {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section8 .mainDivSection8 .mainDivFirstDivSection8 .BusinessUnderstanding {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section8 .mainDivSection8 .mainDivFirstDivSection8 .Partner {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section8 .mainDivSection8 .mainDivSecondDivSection8 {
+  width: 50%;
+}
+.section8 .mainDivSection8 .mainDivSecondDivSection8 img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .section8 .mainDivSection8 {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section8 .mainDivSection8 .mainDivFirstDivSection8 {
+    width: 100%;
+  }
+  .section8 .mainDivSection8 .mainDivSecondDivSection8 {
+    width: 100%;
+  }
+}
+.section9 .mainDivSection9 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  width: 100%;
+}
+.section9 .mainDivSection9 .mainDivFirstDivSection9 {
+  width: 50%;
+}
+.section9 .mainDivSection9 .mainDivFirstDivSection9 .Features {
+  font-family: "Epilogue";
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.section9 .mainDivSection9 .mainDivFirstDivSection9 .LongRun {
+  padding-top: 30px;
+  font-family: "Epilogue";
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+}
+.section9 .mainDivSection9 .mainDivFirstDivSection9 button {
+  margin-top: 28px;
+  border: none;
+  background-color: transparent;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: #391400;
+  cursor: pointer;
+}
+.section9 .mainDivSection9 .mainDivSecondDivSection9 {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+.section9 .mainDivSection9 .mainDivSecondDivSection9 .professionalDiv {
+  border: 1px solid #f3d1bf;
+  background-color: white;
+  max-width: 336px;
+  height: 336px;
+  padding-top: 48px;
+  padding-left: 48px;
+}
+.section9 .mainDivSection9 .mainDivSecondDivSection9 .professionalDiv .logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ef6c57;
+}
+.section9 .mainDivSection9 .mainDivSecondDivSection9 .professionalDiv .Professional {
+  padding-top: 41px;
+  font-family: "Epilogue";
+  font-size: 24px;
+  color: #391400;
+}
+.section9 .mainDivSection9 .mainDivSecondDivSection9 .professionalDiv .FullService {
+  padding-top: 19px;
+  padding-right: 20px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section9 .mainDivSection9 .mainDivSecondDivSection9 .accessibilityDiv {
+  padding-top: 20px;
+  background-color: transparent;
+  border: 1px solid #f3d1bf;
+  max-width: 336px;
+  height: 272px;
+  padding-top: 105px;
+  padding-left: 48px;
+}
+.section9 .mainDivSection9 .mainDivSecondDivSection9 .accessibilityDiv .Accessibility {
+  font-family: "Epilogue";
+  font-size: 24px;
+  color: #391400;
+}
+.section9 .mainDivSection9 .mainDivSecondDivSection9 .accessibilityDiv .businessUnderstanding {
+  padding-top: 19px;
+  padding-right: 20px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+@media only screen and (max-width: 768px) {
+  .section9 .mainDivSection9 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section9 .mainDivSection9 .mainDivFirstDivSection9 {
+    width: 100%;
+  }
+  .section9 .mainDivSection9 .mainDivSecondDivSection9 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section9 .mainDivSection9 .mainDivSecondDivSection9 .professionalDiv {
+    width: 100%;
+  }
+  .section9 .mainDivSection9 .mainDivSecondDivSection9 .accessibilityDiv {
+    width: 100%;
+  }
+}
+.section10 .mainDivSection10 {
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section10 .mainDivSection10 .mainDivSection10FirstDiv {
+  width: 50%;
+}
+.section10 .mainDivSection10 .mainDivSection10FirstDiv img {
+  max-width: 100%;
+}
+.section10 .mainDivSection10 .mainDivSection10SecondDiv {
+  width: 50%;
+  padding-left: 100px;
+}
+.section10 .mainDivSection10 .mainDivSection10SecondDiv .Service {
+  padding-top: 40px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section10 .mainDivSection10 .mainDivSection10SecondDiv .MakingComplex {
+  padding-top: 20px;
+  font-family: "Epilogue";
+  font-size: 56px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #391400;
+}
+.section10 .mainDivSection10 .mainDivSection10SecondDiv .AgencyProvides {
+  padding-top: 26px;
+  font-family: "Epilogue";
+  font-size: 20px;
+  color: #391400;
+}
+.section10 .mainDivSection10 .mainDivSection10SecondDiv .imgDiv {
+  padding-top: 37px;
+  display: flex;
+}
+.section10 .mainDivSection10 .mainDivSection10SecondDiv .imgDiv .imgDivTextAre .Understanding {
+  padding-left: 18px;
+  padding-right: 20px;
+  font-family: "Epilogue";
+  font-size: 14px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section10 .mainDivSection10 .mainDivSection10SecondDiv .imgDiv .imgDivTextAre .Jenny {
+  padding-left: 18px;
+  padding-top: 12px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: #391400;
+}
+.section10 .mainDivSection10 .mainDivSection10SecondDiv button {
+  margin-top: 72px;
+  border: none;
+  width: 138px;
+  height: 48px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  font-family: "Epilogue";
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #391400;
+}
+
+@media only screen and (max-width: 768px) {
+  .section10 .mainDivSection10 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section10 .mainDivSection10 .mainDivSection10FirstDiv {
+    width: 100%;
+  }
+  .section10 .mainDivSection10 .mainDivSection10SecondDiv {
+    width: 100%;
+    padding-left: 0;
+  }
+  .section10 .mainDivSection10 .mainDivSection10SecondDiv .MakingComplex {
+    font-size: 40px;
+  }
+}
+.section11 .mainDivSection11 {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.section11 .mainDivSection11 .mainDivSection11FirstDiv .Service {
+  font-family: "Epilogue";
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section11 .mainDivSection11 .mainDivSection11FirstDiv .HowOur {
+  padding-top: 17px;
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+}
+.section11 .mainDivSection11 .mainDivSection11SecondDiv {
+  width: 100%;
+  padding-top: 35px;
+  display: flex;
+}
+.section11 .mainDivSection11 .mainDivSection11SecondDiv .mainDivSection11SecondDivONE {
+  padding-top: 48px;
+  padding-left: 48px;
+  border: 1px solid #F3D1BF;
+  border-radius: 6px;
+}
+.section11 .mainDivSection11 .mainDivSection11SecondDiv .mainDivSection11SecondDivONE .IconDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #EF6C57;
+}
+.section11 .mainDivSection11 .mainDivSection11SecondDiv .mainDivSection11SecondDivONE .Design {
+  padding-top: 41px;
+  font-family: "Epilogue";
+  font-size: 24px;
+  color: #391400;
+}
+.section11 .mainDivSection11 .mainDivSection11SecondDiv .mainDivSection11SecondDivONE .AgencyProvides {
+  padding-top: 19px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section11 .mainDivSection11 .mainDivSection11SecondDiv .mainDivSection11SecondDivONE button {
+  margin-top: 26px;
+  margin-bottom: 52px;
+  border: none;
+  background-color: transparent;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: #391400;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .section11 .mainDivSection11 .mainDivSection11FirstDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section11 .mainDivSection11 .mainDivSection11SecondDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.section12 .mainDivSection12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section12 .mainDivSection12 .Portfolio {
+  padding-top: 92px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section12 .mainDivSection12 .LatestWork {
+  padding-top: 20px;
+  font-family: "Epilogue";
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+}
+.section12 .mainDivSection12 .works {
+  padding-bottom: 60px;
+  padding-top: 44px;
+  display: flex;
+  gap: 100px;
+}
+.section12 .mainDivSection12 .works .ortaqDiv {
+  text-align: center;
+  position: relative;
+  width: 100px;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+.section12 .mainDivSection12 .works .ortaqDiv:hover {
+  color: #a5a1a1;
+}
+.section12 .mainDivSection12 .works .ortaqDiv .number {
+  color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  right: 4px;
+  font-size: 14px;
+}
+.section12 .mainDivSection12 .works .ortaqDiv .number:hover {
+  color: #a5a1a1;
+}
+.section12 form {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .section12 .mainDivSection12 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section12 .mainDivSection12 .LatestWork {
+    font-size: 40px;
+  }
+  .section12 .mainDivSection12 .works {
+    display: none;
+  }
+  .section12 form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+  }
+  .section12 form select {
+    width: 80%;
+    height: 48px;
+    padding-left: 16px;
+    font-family: "Epilogue";
+    font-size: 16px;
+    color: rgba(57, 20, 0, 0.64);
+  }
+}
+.section13 .mainDivSection13 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.section13 .mainDivSection13 .mainDivSection13FirstDiv {
+  display: flex;
+  gap: 30px;
+}
+.section13 .mainDivSection13 .mainDivSection13FirstDiv .firsdImg {
+  position: relative;
+}
+.section13 .mainDivSection13 .mainDivSection13FirstDiv .firsdImg .designButton {
+  position: absolute;
+  top: 256px;
+  left: 48px;
+  width: 84px;
+  height: 38px;
+  border-radius: 19px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.section13 .mainDivSection13 .mainDivSection13FirstDiv .firsdImg .imgText {
+  position: absolute;
+  top: 317px;
+  left: 48px;
+  font-family: "Epilogue";
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.section13 .mainDivSection13 .mainDivSection13FirstDiv .secondImg {
+  position: relative;
+}
+.section13 .mainDivSection13 .mainDivSection13FirstDiv .secondImg .designButton {
+  position: absolute;
+  top: 256px;
+  left: 48px;
+  width: 84px;
+  height: 38px;
+  border-radius: 19px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.section13 .mainDivSection13 .mainDivSection13FirstDiv .secondImg .imgText {
+  position: absolute;
+  top: 317px;
+  left: 48px;
+  font-family: "Epilogue";
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.section13 .mainDivSection13 .Explore {
+  padding-top: 62px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section13 .mainDivSection13 .Explore button {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  border-radius: 6px;
+  width: 170px;
+  height: 48px;
+  font-family: "Epilogue";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.section13 .mainDivSection13 .Explore button:hover {
+  border: 3px solid #533487;
+  transform: 1s;
+}
+
+@media only screen and (max-width: 768px) {
+  .section13 .mainDivSection13 {
+    width: 100%;
+  }
+  .section13 .mainDivSection13 .mainDivSection13FirstDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .section13 .mainDivSection13 .mainDivSection13FirstDiv .firsdImg {
+    width: 200px;
+    display: none;
+  }
+  .section13 .mainDivSection13 .mainDivSection13FirstDiv .secondImg {
+    display: none;
+    width: 100%;
+  }
+}
+.section14 .mainDivSection14 {
+  position: relative;
+  margin-top: 200px;
+  background: #FDF0E9;
+  border-radius: 6px;
+  display: flex;
+  height: 336px;
+}
+.section14 .mainDivSection14 .firstDiv {
+  padding-left: 100px;
+}
+.section14 .mainDivSection14 .firstDiv .GetStarted {
+  padding-top: 92px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section14 .mainDivSection14 .firstDiv .WeHelp {
+  padding-top: 13px;
+  font-family: "Epilogue";
+  font-size: 24px;
+  color: #391400;
+}
+.section14 .mainDivSection14 .firstDiv button {
+  margin-top: 41px;
+  width: 154px;
+  height: 48px;
+  border: none;
+  background: #EF6D58;
+  border-radius: 6px;
+  font-family: "Epilogue";
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section14 .mainDivSection14 .secondDiv {
+  padding-top: 70px;
+}
+.section14 .mainDivSection14 .secondDiv img {
+  width: 100%;
+}
+.section14 .mainDivSection14 .thridDiv {
+  position: absolute;
+  right: 83px;
+  bottom: 0px;
+  z-index: 2;
+}
+.section14 .mainDivSection14 .thridDiv img {
+  width: 100%;
+}
+.section14 .mainDivSection14 .fourthDiv {
+  position: absolute;
+  right: 94px;
+  top: 47px;
+  z-index: 1;
+}
+.section14 .mainDivSection14 .fivethDiv {
+  position: absolute;
+  left: 84px;
+  bottom: 263px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section14 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section14 .mainDivSection14 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section14 .mainDivSection14 .firstDiv {
+    padding-left: 0;
+  }
+  .section14 .mainDivSection14 .secondDiv {
+    position: static;
+    width: 100%;
+  }
+  .section14 .mainDivSection14 .thridDiv {
+    position: static;
+    width: 100%;
+  }
+  .section14 .mainDivSection14 .fourthDiv {
+    display: none;
+  }
+  .section14 .mainDivSection14 .fivethDiv {
+    left: 12px;
+    top: -85px;
+    z-index: 10;
+  }
+}
+.section15 .mainDivSection15 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.section15 .mainDivSection15 .firstDiv {
+  padding-top: 140px;
+}
+.section15 .mainDivSection15 .firstDiv .Events {
+  font-family: "Epilogue";
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section15 .mainDivSection15 .firstDiv .ExploreFutureConferences {
+  padding-top: 20px;
+  font-family: "Epilogue";
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  font-weight: 800;
+}
+.section15 .mainDivSection15 .secondDiv {
+  display: flex;
+  gap: 30px;
+  padding-top: 64px;
+}
+.section15 .mainDivSection15 .secondDiv .secondDiv_one {
+  border: 1px solid #3A3C56;
+  padding-left: 40px;
+  padding-top: 36px;
+  width: 370px;
+  height: 448px;
+}
+.section15 .mainDivSection15 .secondDiv .secondDiv_one:hover {
+  background-color: rgb(194, 194, 157);
+  color: black;
+  transition: 1s;
+}
+.section15 .mainDivSection15 .secondDiv .secondDiv_one .secondDiv_one__3 {
+  display: flex;
+}
+.section15 .mainDivSection15 .secondDiv .secondDiv_one .secondDiv_one__3 .three {
+  font-family: "Epilogue";
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -2px;
+  color: #FFFFFF;
+}
+.section15 .mainDivSection15 .secondDiv .secondDiv_one .secondDiv_one__3 .november {
+  padding-left: 12px;
+  padding-top: 13px;
+  font-family: "Epilogue";
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.section15 .mainDivSection15 .secondDiv .secondDiv_one .conAndTimeDiv {
+  display: flex;
+  gap: 8px;
+  padding-top: 15px;
+}
+.section15 .mainDivSection15 .secondDiv .secondDiv_one .Line {
+  height: 2px;
+  background: #3A3C56;
+  margin-top: 36px;
+  margin-right: 40px;
+}
+.section15 .mainDivSection15 .secondDiv .secondDiv_one .DesignWeeks {
+  padding-top: 40px;
+  font-family: "Epilogue";
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.section15 .mainDivSection15 .secondDiv .secondDiv_one .Digital {
+  padding-top: 16px;
+  padding-right: 40px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.64);
+}
+.section15 .mainDivSection15 .secondDiv .secondDiv_one .ExploreNow {
+  padding-top: 26px;
+  font-family: "Epilogue";
+  font-size: 16px;
+}
+.section15 .mainDivSection15 .secondDiv .secondDiv_one .ExploreNow a {
+  color: #FFFFFF;
+}
+.section15 .mainDivSection15 .secondDiv .secondDiv_one .ExploreNow a:hover {
+  color: red;
+}
+.section15 .mainDivSection15 .thridDiv {
+  padding-top: 64px;
+}
+.section15 .mainDivSection15 .thridDiv button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 6px;
+  width: 170px;
+  height: 48px;
+  font-family: "Epilogue";
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.section15 .mainDivSection15 .thridDiv button:hover {
+  border: 3px solid #533487;
+  transform: 1s;
+}
+
+@media only screen and (max-width: 768px) {
+  .section15 .mainDivSection15 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section15 .mainDivSection15 .firstDiv .ExploreFutureConferences {
+    font-size: 40px;
+  }
+  .section15 .mainDivSection15 .secondDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .section15 .mainDivSection15 .secondDiv .secondDiv_one {
+    width: 100%;
+  }
+}
+.section16 .mainDivSection16 .mainDivSection16FirstDiv {
+  padding-top: 156px;
+}
+.section16 .mainDivSection16 .mainDivSection16FirstDiv .OurTeam {
+  font-family: "Epilogue";
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section16 .mainDivSection16 .mainDivSection16FirstDiv .TeamOfDesigners {
+  padding-top: 20px;
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+}
+.section16 .mainDivSection16 .mainDivSection16SecondDiv {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+.section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv {
+  width: 270px;
+  padding-top: 64px;
+}
+.section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .imgDiv1 {
+  border: 1px solid #3A3C56;
+  border-radius: 6px;
+  padding-left: 37px;
+  padding-top: 24px;
+}
+.section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .imgDiv1:hover {
+  background-color: rgb(184, 176, 176);
+  transition: 2s;
+}
+.section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .imgDiv2 {
+  border: 1px solid #3A3C56;
+  border-radius: 6px;
+  padding-top: 39px;
+}
+.section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .imgDiv2:hover {
+  background-color: rgb(184, 176, 176);
+  transition: 2s;
+}
+.section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .imgDiv3 {
+  border: 1px solid #3A3C56;
+  border-radius: 6px;
+  padding-left: 37px;
+  padding-top: 33px;
+}
+.section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .imgDiv3:hover {
+  background-color: rgb(184, 176, 176);
+  transition: 2s;
+}
+.section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .imgDiv4 {
+  border: 1px solid #3A3C56;
+  border-radius: 6px;
+  padding-left: 12px;
+  padding-top: 38px;
+}
+.section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .imgDiv4:hover {
+  background-color: rgb(184, 176, 176);
+  transition: 2s;
+}
+.section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .developersName {
+  padding-top: 26px;
+  font-family: "Epilogue";
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .developerStatus {
+  padding-top: 3px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+@media only screen and (max-width: 768px) {
+  .section16 .mainDivSection16 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section16 .mainDivSection16 .mainDivSection16FirstDiv .TeamOfDesigners {
+    font-size: 40px;
+  }
+  .section16 .mainDivSection16 .mainDivSection16SecondDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv {
+    width: 100%;
+  }
+  .section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .imgDiv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-bottom: 30px;
+  }
+  .section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .imgDiv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-bottom: 30px;
+  }
+  .section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .imgDiv3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-bottom: 30px;
+  }
+  .section16 .mainDivSection16 .mainDivSection16SecondDiv .imagesDiv .imgDiv4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-bottom: 30px;
+  }
+}
+.section17 .mainDivSection17 {
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 120px;
+}
+.section17 .mainDivSection17 .imgDiv {
+  width: 50%;
+}
+.section17 .mainDivSection17 .imgDiv img {
+  width: 100%;
+}
+.section17 .mainDivSection17 .FounderText {
+  position: relative;
+  width: 50%;
+  padding-left: 130px;
+  z-index: 10;
+}
+.section17 .mainDivSection17 .FounderText .FounderWords {
+  padding-top: 60px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section17 .mainDivSection17 .FounderText .DigitalAgency {
+  padding-top: 33px;
+  font-family: "Epilogue";
+  font-size: 40px;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 12;
+}
+.section17 .mainDivSection17 .FounderText .RenDelan {
+  padding-top: 44px;
+  font-family: "Epilogue";
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.section17 .mainDivSection17 .FounderText .Founder {
+  padding-top: 6px;
+  font-family: "Epilogue";
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.64);
+}
+.section17 .mainDivSection17 .FounderText .ican {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .section17 .mainDivSection17 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section17 .mainDivSection17 .imgDiv {
+    width: 100%;
+  }
+  .section17 .mainDivSection17 .imgDiv img {
+    width: 100%;
+  }
+  .section17 .mainDivSection17 .FounderText {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+.section18 .mainDivSection18 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 124px;
+}
+.section18 .mainDivSection18 .mainDivSection18FirstDiv .Testimonials {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+  text-align: center;
+}
+.section18 .mainDivSection18 .mainDivSection18FirstDiv .WhatOur {
+  padding-top: 20px;
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv {
+  display: flex;
+  width: 100%;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .firstDiv {
+  width: 50%;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .firstDiv .firstDiv_firstCard {
+  height: 400px;
+  border: 1px solid #F3D1BF;
+  padding-left: 48px;
+  padding-top: 48px;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .firstDiv .firstDiv_firstCard:hover {
+  background-color: white;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .firstDiv .firstDiv_firstCard .cardText {
+  padding-top: 36px;
+  padding-right: 48px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .firstDiv .firstDiv_firstCard .imageAndText {
+  display: flex;
+  padding-top: 36px;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .firstDiv .firstDiv_firstCard .imageAndText .textDiv {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 24px;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .firstDiv .firstDiv_firstCard .imageAndText .textDiv .PrsonName {
+  font-family: "Epilogue";
+  font-size: 24px;
+  color: #391400;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .firstDiv .firstDiv_firstCard .imageAndText .textDiv .personStatus {
+  padding-top: 3px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: #391400;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .secondDiv {
+  width: 50%;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .secondDiv .secondDiv_firstCard {
+  border: 1px solid #F3D1BF;
+  height: 336px;
+  padding-left: 48px;
+  padding-top: 48px;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .secondDiv .secondDiv_firstCard:hover {
+  background-color: white;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .secondDiv .secondDiv_firstCard .cardText {
+  padding-top: 36px;
+  padding-right: 48px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .secondDiv .secondDiv_firstCard .imageAndText {
+  display: flex;
+  padding-top: 36px;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .secondDiv .secondDiv_firstCard .imageAndText .textDiv {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 24px;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .secondDiv .secondDiv_firstCard .imageAndText .textDiv .PrsonName {
+  font-family: "Epilogue";
+  font-size: 24px;
+  color: #391400;
+}
+.section18 .mainDivSection18 .mainDivSection18SecondDiv .secondDiv .secondDiv_firstCard .imageAndText .textDiv .personStatus {
+  padding-top: 3px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: #391400;
+}
+.section18 .mainDivSection18 .seeAllButton {
+  padding-top: 65px;
+}
+.section18 .mainDivSection18 .seeAllButton button {
+  width: 138px;
+  height: 48px;
+  font-family: "Epilogue";
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #391400;
+  background: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+}
+.section18 .mainDivSection18 .seeAllButton button:hover {
+  border: 1px solid #533487;
+  transform: 1s;
+}
+
+@media only screen and (max-width: 768px) {
+  .section18 .mainDivSection18 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section18 .mainDivSection18 .mainDivSection18FirstDiv .WhatOur {
+    font-size: 40px;
+    text-align: center;
+  }
+  .section18 .mainDivSection18 .mainDivSection18SecondDiv {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  .section18 .mainDivSection18 .mainDivSection18SecondDiv .firstDiv {
+    width: 100%;
+  }
+  .section18 .mainDivSection18 .mainDivSection18SecondDiv .firstDiv .firstDiv_firstCard {
+    padding-left: 18px;
+  }
+  .section18 .mainDivSection18 .mainDivSection18SecondDiv .secondDiv {
+    width: 100%;
+  }
+  .section18 .mainDivSection18 .mainDivSection18SecondDiv .secondDiv .secondDiv_firstCard {
+    height: 400px;
+    padding-left: 18px;
+  }
+  .section18 .mainDivSection18 .mainDivSection18SecondDiv .secondDiv .secondDiv_firstCard .cardText {
+    padding-right: 0;
+  }
+}
+.section19 .mainDivSection19 {
+  padding-top: 108px;
+}
+.section19 .mainDivSection19 .mainDivSection19FirstDiv .Pricing {
+  font-family: "Epilogue";
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section19 .mainDivSection19 .mainDivSection19FirstDiv .Check {
+  padding-top: 20px;
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+.section19 .mainDivSection19SecondDiv {
+  display: flex;
+  padding-top: 64px;
+  width: 100%;
+}
+.section19 .mainDivSection19SecondDiv .firstDiv {
+  width: 391px;
+  height: 512px;
+  border: 1px solid #F3D1BF;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+.section19 .mainDivSection19SecondDiv .firstDiv:hover {
+  background-color: white;
+}
+.section19 .mainDivSection19SecondDiv .firstDiv:hover button {
+  background-color: #EF6D58;
+  color: white;
+}
+.section19 .mainDivSection19SecondDiv .firstDiv .header {
+  padding-top: 44px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section19 .mainDivSection19SecondDiv .firstDiv .productStatus {
+  padding-top: 16px;
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  color: #391400;
+}
+.section19 .mainDivSection19SecondDiv .firstDiv .productInfo {
+  padding-top: 15px;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section19 .mainDivSection19SecondDiv .firstDiv .productInfoPlusMinus {
+  display: flex;
+  padding-top: 30px;
+}
+.section19 .mainDivSection19SecondDiv .firstDiv .productInfoPlusMinus .productPlus {
+  padding-left: 15px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: #391400;
+}
+.section19 .mainDivSection19SecondDiv .firstDiv .productInfoPlusMinus .productMinus {
+  padding-left: 15px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section19 .mainDivSection19SecondDiv .firstDiv button {
+  border: none;
+  margin-top: 56px;
+  width: 154px;
+  height: 48px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section19 .mainDivSection19 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section19 .mainDivSection19 .mainDivSection19FirstDiv .Check {
+    font-size: 40px;
+  }
+  .section19 .mainDivSection19 .mainDivSection19SecondDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .section19 .mainDivSection19 .mainDivSection19SecondDiv .firstDiv {
+    width: 100%;
+  }
+}
+.section20 .mainDivSection20 {
+  display: flex;
+  padding-top: 156px;
+  width: 100%;
+}
+.section20 .mainDivSection20 .mainDivSection20FirstDiv {
+  width: 50%;
+}
+.section20 .mainDivSection20 .mainDivSection20FirstDiv .Faq {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section20 .mainDivSection20 .mainDivSection20FirstDiv .Frequently {
+  padding-top: 17px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+}
+.section20 .mainDivSection20 .mainDivSection20FirstDiv .ADigital {
+  padding-top: 31px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+  padding-right: 130px;
+}
+.section20 .mainDivSection20 .mainDivSection20FirstDiv button {
+  background-color: transparent;
+  margin-top: 29px;
+  width: 88Px;
+  height: 32px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: #391400;
+  border: none;
+  cursor: pointer;
+}
+.section20 .mainDivSection20 .mainDivSection20SecondDiv {
+  width: 50%;
+}
+.section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv {
+  border: 1px solid #F3D1BF;
+}
+.section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv:hover {
+  background-color: white;
+}
+.section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv .firstDiv__one {
+  height: 113px;
+  display: flex;
+  justify-content: space-between;
+}
+.section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv .firstDiv__one .mainText {
+  padding-top: 41px;
+  padding-left: 48px;
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 24px;
+  color: #391400;
+}
+.section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv .firstDiv__one .iconsDiv {
+  position: relative;
+  cursor: pointer;
+}
+.section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv .firstDiv__one .iconsDiv .downIcon {
+  padding-top: 40px;
+  padding-right: 34px;
+}
+.section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv .firstDiv__one .iconsDiv .upIcon {
+  position: absolute;
+  top: 40px;
+  right: 34px;
+  display: none;
+}
+.section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv .textArea {
+  display: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+@media only screen and (max-width: 768px) {
+  .section20 .mainDivSection20 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section20 .mainDivSection20 .mainDivSection20FirstDiv {
+    width: 100%;
+  }
+  .section20 .mainDivSection20 .mainDivSection20FirstDiv .Frequently {
+    font-size: 40PX;
+  }
+  .section20 .mainDivSection20 .mainDivSection20SecondDiv {
+    width: 100%;
+    padding-top: 80px;
+  }
+  .section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv .firstDiv__one {
+    height: 150px;
+  }
+  .section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv .firstDiv__one .mainText {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv .firstDiv__one .iconsDiv .downIcon {
+    padding-top: 10px;
+    padding-right: 14px;
+  }
+  .section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv .firstDiv__one .iconsDiv .upIcon {
+    top: 10px;
+    right: 14px;
+  }
+  .section20 .mainDivSection20 .mainDivSection20SecondDiv .firstDiv .textArea {
+    padding-left: 20px;
+  }
+}
+.section20ClickProsses #downIconOne {
+  display: none;
+}
+.section20ClickProsses #upIconOne {
+  display: block;
+}
+
+.section20ClickProssesTwo #downIconTwo {
+  display: none;
+}
+.section20ClickProssesTwo #upIconTwo {
+  display: block;
+}
+
+.section20ClickProssesThree #downIconThree {
+  display: none;
+}
+.section20ClickProssesThree #upIconThree {
+  display: block;
+}
+
+.section20ClickProssesFour #downIconFour {
+  display: none;
+}
+.section20ClickProssesFour #upIconFour {
+  display: block;
+}
+
+.displayNoneBlock {
+  display: block !important;
+  height: auto !important;
+}
+
+.uzunluqArtir {
+  height: 180px !important;
+  transition: 1s;
+}
+
+.section21 .mainDivSection21 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 156px;
+}
+.section21 .mainDivSection21 .OurAwards {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  color: #391400;
+}
+.section21 .mainDivSection21 .tableDiv {
+  width: 100%;
+  padding-top: 67px;
+}
+.section21 .mainDivSection21 .tableDiv .tableDivFirstDiv {
+  border: 1px solid #a76868;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 141px;
+}
+.section21 .mainDivSection21 .tableDiv .tableDivFirstDiv .SofaDiv {
+  width: 250px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+  font-family: "Epilogue";
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+}
+.section21 .mainDivSection21 .tableDiv .tableDivFirstDiv .date {
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section21 .mainDivSection21 .tableDiv .tableDivFirstDiv .Awwwards {
+  width: 250px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 24px;
+  font-family: "Epilogue";
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+}
+.section21 .mainDivSection21 .buttonAndATag {
+  padding-top: 59px;
+  padding-bottom: 60px;
+}
+.section21 .mainDivSection21 .buttonAndATag a {
+  text-decoration: none;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section21 .mainDivSection21 .buttonAndATag button {
+  width: 96px;
+  height: 32px;
+  border: none;
+  background-color: transparent;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: #391400;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .section21 .mainDivSection21 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section21 .mainDivSection21 .tableDiv .tableDivFirstDiv {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .section21 .mainDivSection21 .tableDiv .tableDivFirstDiv .SofaDiv {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section21 .mainDivSection21 .tableDiv .tableDivFirstDiv .date {
+    padding-top: 10px;
+  }
+  .section21 .mainDivSection21 .tableDiv .tableDivFirstDiv .Awwwards {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.section22 .mainDivSection22 {
+  padding-top: 112px;
+}
+.section22 .mainDivSection22 .mainDivSection22FirstDiv .OurBlog {
+  font-family: "Epilogue";
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section22 .mainDivSection22 .mainDivSection22FirstDiv .Latest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.section22 .mainDivSection22 .mainDivSection22FirstDiv .Latest p {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+.section22 .mainDivSection22 .mainDivSection22FirstDiv .Latest button {
+  width: 170px;
+  height: 48px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  font-family: "Epilogue";
+  font-weight: 900;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #391400;
+  border: none;
+  cursor: pointer;
+}
+.section22 .mainDivSection22 .mainDivSection22FirstDiv .Latest button:hover {
+  border: 3px solid #533487;
+  transform: 1s;
+}
+.section22 .mainDivSection22 .mainDivSection22SecondDiv {
+  padding-top: 64px;
+  padding-bottom: 68px;
+  display: flex;
+  gap: 30px;
+}
+.section22 .mainDivSection22 .mainDivSection22SecondDiv .mainDivFirstDiv .protuctStatus {
+  padding-top: 26px;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 20px;
+  color: #391400;
+}
+.section22 .mainDivSection22 .mainDivSection22SecondDiv .mainDivFirstDiv .protuctinfo {
+  padding-top: 15px;
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 24px;
+  color: #391400;
+}
+.section22 .mainDivSection22 .mainDivSection22SecondDiv .mainDivFirstDiv .date {
+  padding-top: 15px;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.section22 .mainDivSection22 .Line {
+  background: #F3D1BF;
+  height: 2px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section22 .mainDivSection22 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section22 .mainDivSection22 .mainDivSection22FirstDiv .Latest {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .section22 .mainDivSection22 .mainDivSection22FirstDiv .Latest button {
+    margin-top: 20px;
+  }
+  .section22 .mainDivSection22 .mainDivSection22SecondDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .section22 .mainDivSection22 .mainDivSection22SecondDiv .mainDivFirstDiv img {
+    width: 100%;
+  }
+}
+.section23 .mainDivSection23 {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.section23 .mainDivSection23 .Newsletter {
+  font-family: "Epilogue";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+}
+.section23 .mainDivSection23 .inputAndButtonDiv {
+  display: flex;
+  gap: 30px;
+}
+.section23 .mainDivSection23 .inputAndButtonDiv input {
+  padding-left: 16px;
+  width: 370px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #F3D1BF;
+  border-radius: 6px;
+}
+.section23 .mainDivSection23 .inputAndButtonDiv button {
+  border: none;
+  width: 170px;
+  height: 48px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  font-family: "Epilogue";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #391400;
+  cursor: pointer;
+}
+.section23 .mainDivSection23 .inputAndButtonDiv button:hover {
+  border: 3px solid #533487;
+  transform: 1s;
+}
+
+@media only screen and (max-width: 768px) {
+  .section23 .mainDivSection23 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section23 .mainDivSection23 .inputAndButtonDiv {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section23 .mainDivSection23 .inputAndButtonDiv input {
+    width: 100%;
+  }
+  .section23 .mainDivSection23 .inputAndButtonDiv button {
+    width: 100%;
+  }
+}
+.mapFon {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/map (1).png");
+}
+.mapFon .section24 {
+  display: flex;
+  width: 100%;
+}
+.mapFon .section24 .formDiv {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 470px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-top: 200px;
+  border: none;
+}
+.mapFon .section24 .formDiv form {
+  display: flex;
+  flex-direction: column;
+}
+.mapFon .section24 .formDiv form label {
+  padding-top: 56px;
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+}
+.mapFon .section24 .formDiv form input {
+  height: 48px;
+  padding-left: 16px;
+  background: #FFFFFF;
+  border: 1px solid #F3D1BF;
+  border-radius: 6px;
+}
+.mapFon .section24 .formDiv form select {
+  margin-top: 16px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  background: #FFFFFF;
+  border: 1px solid #F3D1BF;
+  border-radius: 6px;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.mapFon .section24 .formDiv form textarea {
+  margin-top: 16px;
+  padding-top: 9px;
+  padding-left: 16px;
+  font-family: "Epilogue";
+  font-size: 16px;
+  color: rgba(57, 20, 0, 0.64);
+  background: #FFFFFF;
+  border: 1px solid #F3D1BF;
+  border-radius: 6px;
+}
+.mapFon .section24 .formDiv button {
+  width: 154px;
+  height: 48px;
+  margin-top: 16px;
+  margin-left: 333px;
+  background: #EF6D58;
+  border-radius: 6px;
+  border: none;
+  font-family: "Epilogue";
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.mapFon .section24 .locationLogo {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .mapFon .section24 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .mapFon .section24 .formDiv {
+    width: 100%;
+  }
+  .mapFon .section24 .formDiv button {
+    margin-left: 0;
+  }
+  .mapFon .section24 .locationLogo {
+    position: absolute;
+    top: 300px;
+  }
+}
+.section25 .mainDivSection25 {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  display: flex;
+  width: 100%;
+}
+.section25 .mainDivSection25 .firstDiv {
+  border: 1px solid #F3D1BF;
+  width: 33.333%;
+  padding-left: 48px;
+  padding-top: 32px;
+}
+.section25 .mainDivSection25 .firstDiv .imgAndInfoDiv {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.section25 .mainDivSection25 .firstDiv .imgAndInfoDiv .imgDiv {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #EF6D58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section25 .mainDivSection25 .firstDiv .imgAndInfoDiv p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.section25 .mainDivSection25 .firstDiv .numberEmailAdresInfo {
+  padding-top: 26px;
+  padding-bottom: 38px;
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+}
+
+@media only screen and (max-width: 768px) {
+  .section25 .mainDivSection25 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section25 .mainDivSection25 .firstDiv {
+    width: 100%;
+    padding-left: 18px;
+    padding-top: 22px;
+  }
+}
+.backGraundPinkSections .section26 {
+  background: #EF6D58;
+  border-radius: 6px;
+}
+.backGraundPinkSections .section26 .mainDivSection26 {
+  width: 100%;
+  display: flex;
+}
+.backGraundPinkSections .section26 .mainDivSection26 .firstDiv {
+  width: 50%;
+  padding-left: 100px;
+  padding-top: 94px;
+}
+.backGraundPinkSections .section26 .mainDivSection26 .firstDiv .WeAreHelpTo {
+  padding-right: 75px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+}
+.backGraundPinkSections .section26 .mainDivSection26 .firstDiv .aDigitalAgency {
+  padding-top: 28px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.64);
+}
+.backGraundPinkSections .section26 .mainDivSection26 .firstDiv button {
+  margin-top: 34px;
+  margin-bottom: 80px;
+  width: 154px;
+  height: 48px;
+  border: none;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #391400;
+}
+.backGraundPinkSections .section26 .mainDivSection26 .secondDiv {
+  width: 50%;
+}
+.backGraundPinkSections .section26 .mainDivSection26 .secondDiv img {
+  padding: 20px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .backGraundPinkSections .section26 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .backGraundPinkSections .section26 .mainDivSection26 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .backGraundPinkSections .section26 .mainDivSection26 .firstDiv {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 14px;
+  }
+  .backGraundPinkSections .section26 .mainDivSection26 .firstDiv .WeAreHelpTo {
+    font-size: 40px;
+    padding-right: 0;
+  }
+  .backGraundPinkSections .section26 .mainDivSection26 .secondDiv {
+    width: 100%;
+  }
+  .backGraundPinkSections .section26 .mainDivSection26 .secondDiv img {
+    padding: 5px;
+  }
+}
+footer .footerMainDiv {
+  display: flex;
+  width: 100%;
+  padding-top: 89px;
+  padding-bottom: 100px;
+  justify-content: space-between;
+}
+footer .footerMainDiv .Agency {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+}
+footer .footerMainDiv .FirstLIst p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EF6D58;
+  padding-bottom: 16px;
+}
+footer .footerMainDiv .FirstLIst ul li a {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #391400;
+}
+footer .footerMainDiv .iconsDiv {
+  display: flex;
+  gap: 8px;
+}
+footer .footerMainDiv .iconsDiv div {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #EF6D58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+footer .footerMainDiv .iconsDiv div:hover {
+  background-color: #3f2925;
+  transition: 1s;
+}
+footer .footerMainDiv .iconsDiv div i {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+footer .line {
+  margin-top: 68px;
+  margin-bottom: 30px;
+  height: 2px;
+  background: #F3D1BF;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .footerMainDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footerMainDiv .FirstLIst {
+    padding-top: 51px;
+  }
+  footer .footerMainDiv .iconsDiv {
+    padding-top: 52px;
+  }
+}
+.endOfPage .mainDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 23px;
+  padding-bottom: 43px;
+}
+.endOfPage .mainDiv .Copyright {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.endOfPage .mainDiv .secondDiv {
+  display: flex;
+  gap: 68px;
+}
+.endOfPage .mainDiv .secondDiv a {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #391400;
+}
+
+@media only screen and (max-width: 768px) {
+  .endOfPage .mainDiv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .endOfPage .mainDiv .secondDiv {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+}/*# sourceMappingURL=main.css.map */

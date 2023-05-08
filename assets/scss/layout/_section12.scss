@@ -1,0 +1,91 @@
+.section12{
+    .mainDivSection12{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .Portfolio{
+            padding-top: 92px;
+            font-family: 'Epilogue';
+            font-size: 16px;
+            text-align: center;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #EF6D58;
+
+        }
+        .LatestWork{
+            padding-top: 20px;
+            font-family: 'Epilogue';
+            font-size: 56px;
+            line-height: 64px;
+            text-align: center;
+            letter-spacing: -1px;
+            color: #FFFFFF;
+        }
+        .works{
+            padding-bottom: 60px;
+            padding-top: 44px;
+            display: flex;
+            gap: 100px;
+            
+            .ortaqDiv{
+                text-align: center;
+                position: relative;
+                width: 100px;
+                color: #FFFFFF;
+                font-size: 16px;
+                &:hover{
+                    color: #a5a1a1;
+                }
+                
+                .number{
+                    color: #FFFFFF;
+                    position: absolute;
+                    top: 0;
+                    right: 4px;
+                    font-size: 14px;
+                    &:hover{
+                        color: #a5a1a1;
+                    }
+                }
+            }
+
+        }
+    }
+    form{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .section12{
+        .mainDivSection12{
+            padding-left: 20px;
+            padding-right: 20px;
+            .LatestWork{
+                font-size: 40px;
+            }
+            .works{
+                display: none;
+            }
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 60px;
+            
+            select{
+                width: 80%;
+                height: 48px;
+                padding-left: 16px;
+                font-family: 'Epilogue';
+                font-size: 16px;
+                color: rgba(57, 20, 0, 0.64);
+
+            }
+
+        }
+    }
+}

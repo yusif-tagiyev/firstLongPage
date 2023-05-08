@@ -1,0 +1,224 @@
+.section20{
+    .mainDivSection20{
+        display: flex;
+        padding-top: 156px;
+        width: 100%;
+        .mainDivSection20FirstDiv{
+            width: 50%;
+            .Faq{
+                font-family: 'Epilogue';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 32px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: #EF6D58;
+            }
+            .Frequently{
+                padding-top: 17px;
+                font-family: 'Epilogue';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 40px;
+                line-height: 48px;
+                color: #391400;
+            }
+            .ADigital{
+                padding-top: 31px;
+                font-family: 'Epilogue';
+                font-size: 16px;
+                color: rgba(57, 20, 0, 0.64);
+                padding-right: 130px;
+
+            }
+            button{
+                background-color: transparent;
+                margin-top: 29px;
+                width: 88Px;
+                height: 32px;
+                font-family: 'Epilogue';
+                font-size: 16px;
+                color: #391400;
+                border: none;
+                cursor: pointer;
+            }
+        }
+        .mainDivSection20SecondDiv{
+            width: 50%;
+            .firstDiv{
+                border: 1px solid #F3D1BF;
+                &:hover{
+                    background-color: white;
+                }
+                .firstDiv__one{
+                    height: 113px;
+                    display: flex;
+                    justify-content: space-between;
+                    .mainText{
+                        padding-top: 41px;
+                        padding-left: 48px;
+                        font-family: 'Epilogue';
+                        font-weight: 700;
+                        font-size: 24px;
+                        color: #391400;
+                    }
+                    .iconsDiv{
+                        position: relative;
+                        cursor: pointer;
+
+                        .downIcon{
+                            padding-top: 40px;
+                            padding-right: 34px;
+
+
+                        }
+                        .upIcon{
+                            position: absolute;
+                            top: 40px;
+                            right: 34px;
+
+                            display: none;
+                            
+
+                        }
+                       
+                    }
+                    
+                   
+                }
+                .textArea{
+                    display: none;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    padding-bottom: 50px;
+                    font-family: 'Epilogue';
+                    font-size: 16px;
+                    color: rgba(57, 20, 0, 0.64);
+                }
+
+            }
+            
+        }
+
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .section20{
+       .mainDivSection20{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+            padding-right: 20px;
+        .mainDivSection20FirstDiv{
+            width: 100%;
+            .Frequently{
+                font-size: 40PX;
+            }
+        }
+        .mainDivSection20SecondDiv{
+            width: 100%;
+            padding-top: 80px;
+            .firstDiv{
+                .firstDiv__one{
+                height: 150px;
+
+                    .mainText{
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                    .iconsDiv{
+                        .downIcon{
+                            padding-top: 10px;
+                            padding-right: 14px;
+                        }
+                        .upIcon{
+                            top: 10px;
+                            right: 14px;
+                        }
+                    }
+                }
+                .textArea{
+                    padding-left: 20px;
+                }
+            }
+        }
+
+    } 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// click emeliyyati
+
+
+.section20ClickProsses{
+    #downIconOne{
+        display: none;
+    }
+    #upIconOne{
+        display: block;
+    }
+            
+}
+.section20ClickProssesTwo{
+    #downIconTwo{
+        display: none;
+    }
+    #upIconTwo{
+        display: block;
+    }
+            
+}
+.section20ClickProssesThree{
+    #downIconThree{
+        display: none;
+    }
+    #upIconThree{
+        display: block;
+    }
+            
+}
+.section20ClickProssesFour{
+    #downIconFour{
+        display: none;
+    }
+    #upIconFour{
+        display: block;
+    }
+            
+}
+
+// yazinin itib cixmasi
+
+.displayNoneBlock{
+    display: block !important;
+    height: auto !important;
+
+}
+// deyiwerem deye adi bele qoydum
+.uzunluqArtir{
+    height: 180px !important;
+    transition: 1s;
+}
+
+

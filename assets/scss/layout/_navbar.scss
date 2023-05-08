@@ -1,0 +1,98 @@
+.backGraundDarkSections {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #28293e;
+    height: 80px;
+    .agencyLogo {
+      display: flex;
+      gap: 5px;
+      font-family: "Epilogue";
+      font-size: 24px;
+      color: #ffffff;
+    }
+    .agencyInfoList {
+      width: 515px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      ul {
+        display: flex;
+        gap: 90px;
+        li {
+          a {
+            font-family: "Epilogue";
+            font-size: 16px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .contactButton {
+      width: 138px;
+      height: 48px;
+      background-color: #28293e;
+      color: white;
+      border: 1px solid white;
+      border-radius: 6px;
+      font-family: "Epilogue";
+      font-size: 14px;
+      color: #ffffff;
+      &:hover {
+        border: 1px solid #533487;
+        transform: 1s;
+      }
+    }
+    .ivonDiv {
+      display: none;
+      width: 48px;
+      height: 48px;
+      border: 1px solid black;
+      border-radius: 6px;
+      font-size: 29px;
+      color: white;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  #agencyInfoListMobil {
+    transition: 0.5s;
+    display: block;
+    height: 0;
+    gap: 19px;
+    max-width: 768px;
+    overflow: hidden;
+    &.navClickStyle {
+      height: 150px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+      li {
+        a {
+          color: rgb(255, 246, 246);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .backGraundDarkSections {
+    nav {
+      .agencyInfoList {
+        display: none;
+      }
+      .contactButton {
+        display: none;
+      }
+      .ivonDiv {
+        display: flex;
+      }
+    }
+  }
+}

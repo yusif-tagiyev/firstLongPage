@@ -1,0 +1,43 @@
+.endOfPage {
+  .mainDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 23px;
+    padding-bottom: 43px;
+    .Copyright {
+      font-family: "Epilogue";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: rgba(57, 20, 0, 0.64);
+    }
+    .secondDiv {
+      display: flex;
+      gap: 68px;
+      a {
+        font-family: "Epilogue";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #391400;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .endOfPage {
+    .mainDiv {
+      display: flex;
+      flex-direction: column;
+      padding-left: 20px;
+      padding-right: 20px;
+      .secondDiv {
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

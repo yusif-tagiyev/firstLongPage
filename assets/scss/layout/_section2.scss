@@ -1,0 +1,166 @@
+.section2{
+    display: flex;
+    padding-top: 100px;
+    position: relative;
+    .satarImg{
+        position: absolute;
+        left: 296px;
+        z-index: 1;
+    }
+    .Modern{
+       width:  50%;
+        z-index: 2;
+        .modernStudio{
+            font-family: 'Epilogue';
+            font-size: 16px;
+            color: #EF6D58;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+
+        }
+        .WeAreHelp{
+            padding-top: 24px;
+            // width: 512px;
+            // height: 240px;
+            h1{
+                font-family: 'Epilogue';
+                font-size: 72px;
+                letter-spacing: -2px;
+                color: #FFFFFF;
+            }
+        }
+        .agencyProvides{
+            padding-top: 24px;
+            // width: 470px;
+            // height: 66px;
+            p{
+                font-family: 'Epilogue';
+                font-size: 16px;
+                color: rgba(255, 255, 255, 0.64);
+            }
+        }
+        .buttonDiv{
+            padding-top: 34px;
+            .howWeWorkButton{
+                width: 154px;
+                height: 48px;
+                border: none;
+                background: #EF6D58;
+                border-radius: 6px;
+                cursor: pointer;
+                font-family: 'Epilogue';
+                font-size: 14px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .contactUsButton{
+                width: 154px;
+                height: 48px;
+                border: none;
+                background-color: #28293E;
+                border-radius: 6px;
+                cursor: pointer;
+                font-family: 'Epilogue';
+                font-size: 14px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+        .userIconDiv{
+            padding-top: 116px;
+            display: flex;
+            .putThemselves{
+                padding-top: 5px;
+                padding-left: 16px;
+
+                .putThemselvesShose{
+                    font-family: 'Epilogue';
+                    font-size: 16px;
+                    color: rgba(255, 255, 255, 0.64);
+                }
+                .metaInc{
+                    padding-top: 5px;
+                    font-family: 'Epilogue';
+                    font-size: 16px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    .desiginIMG{
+        width: 50%;
+        .desiginIMGTag{
+            width: 100%;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        .Modern{
+            width: 100%;
+            .WeAreHelp{
+                padding-top: 24px;
+               
+                h1{
+                    font-family: 'Epilogue';
+                    font-size: 56px;
+                    letter-spacing: -2px;
+                    color: #FFFFFF;
+                }
+            }
+            .agencyProvides{
+                padding-top: 44px;
+                max-width: 300px;
+                max-height: 66px;
+                p{
+                    font-family: 'Epilogue';
+                    font-size: 16px;
+                    color: rgba(255, 255, 255, 0.64);
+                }
+            }
+            .buttonDiv{
+                padding-top: 54px;
+                .howWeWorkButton{
+                    max-width: 100px;
+                    
+                }
+                .contactUsButton{
+                    max-width: 100px;
+                   
+                }
+            }
+            .userIconDiv{
+                padding-top: 44px;
+                display: flex;
+                .putThemselves{
+                    padding-top: 5px;
+                    padding-left: 16px;
+    
+                   
+                }
+            }
+        }
+       
+        .satarImg{
+            display: none;
+        }
+        .desiginIMG{
+            width: 100%;
+            
+
+            .desiginIMGTag{
+            max-width: 307px;
+
+            }
+        }
+    }
+}

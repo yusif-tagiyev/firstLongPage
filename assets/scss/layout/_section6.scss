@@ -1,0 +1,140 @@
+.section6{
+    .maiDivSection6{
+        padding-top: 110px;
+        display: flex;
+        width: 100%;
+        .HowWeWorkMainDiv{
+           max-width: 50%;
+            .HowWeWork{
+                font-family: 'Epilogue';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 32px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: #EF6D58;
+            }
+            .MakingYourProjects{
+                // width: 448px;
+                // height: 96px;
+                padding-top: 17px;
+                font-family: 'Epilogue';
+                font-weight: 800;
+                font-size: 40px;
+                color: #391400;
+            }
+            .TechnicalSkills{
+                padding-top: 31px;
+                max-width: 470px;
+                font-family: 'Epilogue';
+                font-weight: 400;
+                font-size: 16px;
+                color: rgba(57, 20, 0, 0.64);
+
+            }
+            .ReadMor{
+                margin-top: 28px;
+                border: none;
+                font-family: 'Epilogue';
+                font-weight: 400;
+                font-size: 16px;
+                color: #391400;
+                background-color: #FDF0E9;
+                cursor: pointer;
+            }
+        }
+        .FullServiceMainDiv{
+            padding-top: 90px;
+            max-width: 50%;
+            .FullServiceMainDivFirstDiv{
+                display: flex;
+                .one{
+                    width: 34px;
+                    height: 80px;
+                    font-family: 'Epilogue';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 72px;
+                    letter-spacing: -2px;
+                    color: #391400;
+                }
+                .serviceRange{
+                    padding-top: 30px;
+                    padding-left: 66px;
+                    font-family: 'Epilogue';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    color: #391400;
+                }
+            }
+            .FullServiceMainDivSecondDiv{
+                display: flex;
+                .two{
+                    // padding-top: 22px;   
+                    width: 46px;
+                    height: 80px;
+                    font-family: 'Epilogue';
+                    font-weight: 800;
+                    font-size: 72px;
+                    letter-spacing: -2px;
+                    color: #391400;
+                }
+                .technicalSkills{
+                    padding-top: 30px;
+                    padding-left: 54px;
+                    font-family: 'Epilogue';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    color: #391400;
+                }
+            }
+            .FullServiceMainDivThridDiv{
+                display: flex;
+                .three{
+                    font-family: 'Epilogue';
+                    font-weight: 800;
+                    font-size: 72px;
+                    letter-spacing: -2px;
+                    color: #391400;
+                }
+            }
+            .Themselves{
+                padding-top: 30px;
+                padding-left: 66px;
+                font-family: 'Epilogue';
+                font-weight: 700;
+                font-size: 24px;
+                color: #391400;
+            }
+        } 
+    }
+    hr{
+        margin-top: 105px;
+        margin-bottom: 20px;
+        border: 1px solid  #F3D1BF;
+        
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .section6{
+        .maiDivSection6{
+            display: flex;
+            flex-direction: column;
+            padding-left: 20px;
+            padding-right: 20px;
+            .HowWeWorkMainDiv{
+                width: 100%;
+               
+            }
+            .FullServiceMainDiv{
+               
+                width: 100%;
+                
+                
+            }
+        }    
+    }
+}

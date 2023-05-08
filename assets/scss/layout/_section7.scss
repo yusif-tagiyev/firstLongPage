@@ -1,0 +1,103 @@
+.section7 {
+  .mainDivSection7 {
+    width: 100%;
+    display: flex;
+    padding-top: 127px;
+    padding-bottom: 100px;
+    .mainDivFirstDiv {
+      width: 50%;
+      position: relative;
+      .imgDiv2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 100%;
+        }
+      }
+
+      .time {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: white;
+      }
+      .playIcon {
+        top: 124px;
+        left: 206px;
+        position: absolute;
+        width: 148px;
+        height: 148px;
+        border: 1px solid rgb(255, 255, 255);
+        background-color: transparent;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: white;
+      }
+    }
+    .mainDivSecondDiv {
+      width: 50%;
+      padding-top: 65px;
+      .videoReel {
+        padding-left: 130px;
+        font-family: "Epilogue";
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #ef6d58;
+      }
+      .unlockTheGreatest {
+        padding-left: 130px;
+        padding-top: 17px;
+
+        font-family: "Epilogue";
+        font-weight: 800;
+        font-size: 40px;
+        color: #391400;
+      }
+      .designBusinessUnderstanding {
+        padding-left: 130px;
+        padding-top: 28px;
+        font-family: "Epilogue";
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(57, 20, 0, 0.64);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section7 {
+    .mainDivSection7 {
+      display: flex;
+      flex-direction: column;
+      padding-top: 27px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      .mainDivFirstDiv {
+        width: 100%;
+        .playIcon {
+          display: none;
+        }
+      }
+      .mainDivSecondDiv {
+        width: 100%;
+        .videoReel {
+          padding-left: 0;
+        }
+        .unlockTheGreatest {
+          padding-left: 0;
+        }
+        .designBusinessUnderstanding {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}

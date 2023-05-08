@@ -1,0 +1,112 @@
+.mapFon{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/map\ \(1\).png");
+    .section24{
+        display: flex;
+        width: 100%;
+        .formDiv{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 470px;
+            background: #FFFFFF;
+            border-radius: 6px;
+            padding-left: 48px;
+            padding-right: 48px;
+            margin-top: 200px;
+            border: none;
+            form{
+                display: flex;
+                flex-direction: column;
+                label{
+                    padding-top: 56px;
+                    font-family: 'Epilogue';
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #391400;
+                }
+                input{
+                    height: 48px;
+                    padding-left: 16px;
+                    background: #FFFFFF;
+                    border: 1px solid #F3D1BF;
+                    border-radius: 6px;
+                }
+                select{
+                    margin-top: 16px;
+                    padding-top: 16px;
+                    padding-left: 16px;
+                    padding-bottom: 16px;
+                    background: #FFFFFF;
+                    border: 1px solid #F3D1BF;
+                    border-radius: 6px;
+                    font-family: 'Epilogue';
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 32px;
+                    color: rgba(57, 20, 0, 0.64);
+
+                }
+                textarea{
+                    margin-top: 16px;
+                    padding-top: 9px;
+                    padding-left: 16px;
+                    font-family: 'Epilogue';
+                    font-size: 16px;
+                    color: rgba(57, 20, 0, 0.64);
+                    background: #FFFFFF;
+                    border: 1px solid #F3D1BF;
+                    border-radius: 6px;
+                }
+            }
+            button{
+                width: 154px;
+                height: 48px;
+                margin-top: 16px;
+                margin-left: 333px;
+                background: #EF6D58;
+                border-radius: 6px;
+                border: none;
+                font-family: 'Epilogue';
+                font-weight: 900;
+                font-size: 14px;
+                line-height: 14px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+        .locationLogo{
+            width: 50%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .mapFon{
+        .section24{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            padding-left: 20px;
+            padding-right: 20px;
+            .formDiv{
+                width: 100%;
+                button{
+                    margin-left: 0;
+                }
+            }
+            .locationLogo{
+                position: absolute;
+                top: 300px;
+            }
+        }
+    }
+}
